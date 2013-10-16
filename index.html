@@ -2,4 +2,15 @@
 layout: default
 title: Subnero
 ---
-Index Page
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.fadein img:gt(0)').hide();
+	setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
+
+<div class="fadein">
+<img src="/images/Nemo2.jpg">
+<img src="/images/Trio.png">
+</div>

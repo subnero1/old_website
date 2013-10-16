@@ -120,6 +120,8 @@ div#menu_container ul {
 padding-left:0px;
 }
 
+.fadein { position:relative; height:300px; width:500px; margin-left: auto ; margin-right: auto ; }
+.fadein img { position:absolute; left:0; top:0; }
 
 .site {
   font-size: 115%;
