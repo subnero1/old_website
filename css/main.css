@@ -55,6 +55,72 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+div#main {
+  width: 965px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.container {/*
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;*/
+    }
+div.lineleft {
+ position:absolute;
+ top:60px;
+ left:0;
+}
+div.lineright {
+ position:absolute;
+ top:60px;
+ right:0;
+}
+div.logo {
+  height:130px;
+  width:183px;
+  position:relative;
+  margin:0 auto;
+}
+div#header_container{
+margin: 40px auto 0;
+width:965px; /*787px;*/
+position:relative;
+}
+
+div#menu_container{
+margin-top:20px;
+margin-bottom:20px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+/*width:360px;*/
+}
+
+div#menu_container li
+{
+display:inline;
+list-style-type:none;
+padding-right:10px;
+
+}
+
+div#menu_container a
+{
+font-size: 1.1em;
+text-decoration:none;
+color: #A9A9A9;
+text-transform:uppercase;
+font-weight:lighter;
+}
+div#menu_container .active a
+{
+color:#2F4F4F;
+}
+div#menu_container ul {
+padding-left:0px;
+}
+
+
 .site {
   font-size: 115%;
   text-align: justify;
