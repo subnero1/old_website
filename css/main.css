@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 90%; }
 
 body {
   background-color: #FFF;
@@ -20,8 +20,8 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+/*h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }*/
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -135,6 +135,8 @@ div#footer{
   text-align:center;
   font-size:0.8em;
   padding-top:40px;
+  padding-bottom:10px;
+  color: #888888;
 }
 
 .fadein { 
@@ -145,19 +147,20 @@ div#footer{
   margin-right: auto;
   box-shadow: 7px 7px 15px  #888888;
   padding: 1px;
-  border: 3px solid #e6782f
+  border: 3px solid #e6782f;
  }
 
 .fadein img { position:absolute; left:0; top:0; }
 
 .tag {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .tag h1{
-  font-size: 150%;
+  font-size: 170%;
   font-family: 'Open Sans';
   color: #73a4b5;
+  font-weight: 400;
 }
 
 /*****************************************************************************/
@@ -170,15 +173,75 @@ div#footer{
   width:965px;
 }
 .about img{
-  width: 206px;
+  width: 170px;
   margin-left: 0px;
-  margin-right: 40px;
   float: left;
 }
-.about p{
-  width: 800px;
-  margin-left: 0px;
+.about .text{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: left;
+  padding-left:40px;
+  margin-top: 30px;
+  font-size: 110%;
+  font-weight: 400;
+  color: #333333;
+
 }
+.about h1{
+  color :#e6782f;
+  font-size: 170%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: left;
+}
+
+/*****************************************************************************/
+/*
+/* Technology
+/*
+/*****************************************************************************/
+.technology{
+  width:965px;
+}
+.technology img{
+width: 400px;
+margin-left: 0px;
+float: right;
+}
+.technology h1{
+color :#e6782f;
+font-size: 170%;
+font-family: 'Open Sans';
+font-weight: 400;
+text-align: left;
+}
+
+.technology h2{
+color :#e6782f;
+font-size: 125%;
+font-family: 'Open Sans';
+font-weight: 400;
+text-align: left;
+}
+
+.technology .text{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: left;
+  font-size: 110%;
+  font-weight: 400;
+  color: #333333;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
