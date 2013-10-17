@@ -205,11 +205,12 @@ div#footer{
 /* Technology
 /*
 /*****************************************************************************/
+
 .technology{
   width:965px;
 }
-.technology img{
-width: 400px;
+.technology .Trio{
+
 margin-left: 0px;
 float: right;
 }
@@ -241,7 +242,72 @@ text-align: left;
   font-weight: 400;
   color: #333333;
 }
+.technology ul{
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
 
+/*************************************************************************/
+.CSSTableGenerator1 {
+  margin:20px;padding:5px;
+  width:100%;
+  border:none;
+  box-shadow: 3px 3px 20px #888888;
+}.CSSTableGenerator1 table{
+  width:100%;
+  height:100%;
+  margin:0px;padding:0px;
+  border-collapse:collapse;
+}.CSSTableGenerator1 tr:hover td{
+  
+}
+.CSSTableGenerator1 tr:nth-child(odd){ background-color:#eeeeee;  }
+.CSSTableGenerator1 tr:nth-child(even)    { background-color:#ffffff; 
+}.CSSTableGenerator1 td{
+  vertical-align:middle;
+  text-align:center; 
+  padding:5px;
+  font-size:14px;
+  font-weight:normal;
+  color:#666;
+}.CSSTableGenerator1 tr:last-child td{
+}.CSSTableGenerator1 tr td:last-child{
+}.CSSTableGenerator1 tr:last-child td:last-child{
+}
+.CSSTableGenerator1 tr:first-child td{
+
+  background-color:#e6782f;
+  text-align:center;
+  font-size:12px;
+  font-family:Open Sans;
+  font-weight:bold;
+  color:#ffffff;
+  text-transform:uppercase;
+}
+.CSSTableGenerator1 tr:first-child:hover td{
+
+  background-color:#e6782f;
+}
+.CSSTableGenerator1 tr td:first-child{
+  font-weight:bold;
+  text-align:right;
+  border-left:0px solid #e6782f;
+  color:#333;
+}
+.CSSTableGenerator1 tr td:last-child{
+  border-right:0px solid #e6782f;
+}
+.CSSTableGenerator1 tr:first-child td:first-child{
+  text-align:center;
+  border-left:0px solid #e6782f;
+  color:white;
+}
+.CSSTableGenerator1 tr:first-child td:last-child{
+  border-right:0px solid #e6782f;
+}
+
+/*************************************************************************/
 .site {
   font-size: 115%;
   text-align: justify;
