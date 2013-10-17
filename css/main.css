@@ -308,6 +308,43 @@ text-align: left;
 }
 
 /*************************************************************************/
+/*Solutions
+/*************************************************************************/
+.solutions{
+
+}
+.solutions a{
+ color: #e6782f;
+}
+.solutions{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: left;
+  font-size: 110%;
+  font-weight: 400;
+  color: #333333;
+}
+.solutions h1{
+  color :#e6782f;
+  font-size: 170%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: left;
+}
+
+.solutions h2{
+  color :#e6782f;
+  font-size: 125%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 .site {
   font-size: 115%;
   text-align: justify;
