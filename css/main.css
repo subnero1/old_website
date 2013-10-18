@@ -143,11 +143,11 @@ div#footer{
 
 .fadein { 
   position:relative; 
-  height:350px; 
-  width:700px; 
+  height:400px; 
+  width:800px; 
   margin-left: auto ; 
   margin-right: auto;
-  box-shadow: 1px 1px 15px  #bbbbbb;
+  /*box-shadow: 1px 1px 15px  #bbbbbb;*/
   padding: 0px;
  }
 
