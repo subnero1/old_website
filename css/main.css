@@ -24,7 +24,9 @@ body {
   font-size: 100%; }*/
 
 h1 { margin-bottom: 0em; }
-p { margin: 1em 0; }
+p {
+  margin: 1em 0; 
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -142,11 +144,11 @@ div#footer{
 .fadein { 
   position:relative; 
   height:350px; 
-  width:622px; 
+  width:700px; 
   margin-left: auto ; 
   margin-right: auto;
   box-shadow: 1px 1px 15px  #bbbbbb;
-  padding: 1px;
+  padding: 0px;
  }
 
 .fadein img { position:absolute; left:0; top:0; }
@@ -187,9 +189,10 @@ div#footer{
   text-align: justify;
   padding-left:40px;
   margin-top: 30px;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 400;
   color: #333333;
+  line-height: 170%;
 }
 .about h1{
   color :#e6782f;
@@ -323,9 +326,10 @@ text-align: left;
   font-weight: 400;
   font-family: 'Open Sans';
   text-align: justify;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 400;
   color: #333333;
+  line-height: 170%;
 }
 .solutions h1{
   color :#e6782f;
