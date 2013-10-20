@@ -34,9 +34,11 @@ p {
   margin: 1em 0; 
 }
 
-a         { color: #000; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a{
+  color:#e6782f; 
+}
+a:hover   { color: #FF3300; }
+a:visited { color: #661400; }
 
 /*****************************************************************************/
 /*
