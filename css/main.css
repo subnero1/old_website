@@ -181,23 +181,22 @@ div#footer{
 /*****************************************************************************/
 
 .about{
-  width:965px;
-}
-.about img{
-  width: 313px;
-  margin-left: 0px;
-  float: left;
-}
-.about .text{
-  width: 60%;
+  width:900px;
   margin-left: auto;
   margin-right: auto;
-  float: left;
+}
+.about img{
+  width: 313px; 
+  float: right;
+  padding-left: 30px;
+}
+.about .text{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 400;
   font-family: 'Open Sans';
   text-align: justify;
-  padding-left:40px;
-  margin-top: 30px;
   font-size: 100%;
   font-weight: 400;
   color: #333333;
@@ -218,7 +217,9 @@ div#footer{
 /*****************************************************************************/
 
 .technology{
-  width:965px;
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .technology .Trio{
 margin-left: 0px;
@@ -244,7 +245,6 @@ text-align: left;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  float: left;
   font-weight: 400;
   font-family: 'Open Sans';
   text-align: justify;
@@ -322,16 +322,17 @@ text-align: left;
 /*Solutions
 /*************************************************************************/
 .solutions{
-
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .solutions a{
  color: #e6782f;
 }
-.solutions{
+.solutions .text{
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  float: left;
   font-weight: 400;
   font-family: 'Open Sans';
   text-align: justify;
@@ -430,13 +431,32 @@ text-align: left;
 /*****************************************************************************/
 
 .contact {
-  width:965px;
+  width:900px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.contact .map{
-  width:300px;
+.contact .address{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: justify;
+  font-size: 100%;
+  font-weight: 400;
+  color: #333333;
+  line-height: 170%;
+  padding-top: 
 }
+
+.contact img{
+   float: left;
+   padding-right: 40px;
+
+}
+
 .contact a{
-  float: left;
+ 
 
 }
 
