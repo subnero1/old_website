@@ -82,25 +82,26 @@ div.container {/*
     }
 div.lineleft {
  position:absolute;
- top:60px;
+ top:40px;
  left:0;
 }
 div.lineright {
  position:absolute;
- top:60px;
+ top:40px;
  right:0;
 }
-div.logo {
-  height:130px;
-  width:183px;
-  position:relative;
-  margin:0 auto;
-}
+
 div#header_container{
-  margin: 40px auto 0;
+  margin: 20px auto 0;
   width:965px; /*787px;*/
   position:relative;
 }
+
+div#header_container .logo img{
+  width:150px;
+  position:relative;
+}
+
 
 div#menu_container{
   margin-top:20px;
