@@ -23,7 +23,13 @@ body {
 /*h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }*/
 
-h1 { margin-bottom: 0em; }
+h1 {
+  margin-bottom: 0em;
+  color :#e6782f;
+  font-size: 170%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
 p {
   margin: 1em 0; 
 }
@@ -175,7 +181,7 @@ div#footer{
   width:965px;
 }
 .about img{
-  width: 170px;
+  width: 313px;
   margin-left: 0px;
   float: left;
 }
@@ -420,8 +426,15 @@ text-align: left;
 /*
 /*****************************************************************************/
 
+.contact {
+  width:965px;
+}
+.contact .map{
+  width:300px;
+}
 .contact a{
   float: left;
+
 }
 
 /*****************************************************************************/
