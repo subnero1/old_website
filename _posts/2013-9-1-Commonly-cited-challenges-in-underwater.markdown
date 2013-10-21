@@ -21,7 +21,7 @@ be rapidly designed, simulated, tested and deployed.
  
 ![center]({{ site.baseurl }}/images/unet_post.png "UnetStack")
 
-[UnetStack](http://www.unetstack.net/doc/html/index.html) has been developed over several years, and tested through
+<a href="http://www.unetstack.net/doc/html/index.html" target="_blank">UnetStack</a> has been developed over several years, and tested through
 numerous underwater network experiments at sea.  A community version of
 UnetStack has recently been made freely available for academic and
 research use.  This version allows rapid development and simulation of
