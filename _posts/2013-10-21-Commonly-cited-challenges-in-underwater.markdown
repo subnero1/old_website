@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Commonly-cited-challenges-in-underwater
+title: Software-defined networking takes a big leap forward in underwater communications
 date:   2013-10-21
 ---
 
