@@ -234,11 +234,14 @@ div#footer{
   margin-right: auto;
 }
 .technology .Trio{
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-
-width:100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.technology img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
 }
 .technology h1{
 color :#e6782f;
