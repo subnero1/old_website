@@ -30,6 +30,15 @@ h1 {
   font-family: 'Open Sans';
   font-weight: 400;
 }
+
+h2 {
+  margin-bottom: 0em;
+  color :#e6782f;
+  font-size: 125%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
 p {
   margin: 1em 0; 
 }
@@ -496,4 +505,20 @@ text-align: left;
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.ListPosts {
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+
+
+}
+
+.blog {
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
 }

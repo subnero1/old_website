@@ -3,11 +3,15 @@ layout: default
 title: Blog
 ---
 
+<div class="blog">
+<div class="ListPosts">
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+       <p>{{ post.excerpt }}</p> 
+   
     </li>
   {% endfor %}
+  </div>
 </ul>
