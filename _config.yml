@@ -1,5 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-baseurl: /SubneroStaging
+#baseurl: /SubneroStaging
+baseurl: http://subnero.com
 permalink: /:title
