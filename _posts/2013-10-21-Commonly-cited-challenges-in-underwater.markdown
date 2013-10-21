@@ -19,10 +19,12 @@ behaviors to be negotiated between different agents. The resulting
 solution is flexible and allows software-defined underwater networks to
 be rapidly designed, simulated, tested and deployed.
  
-UnetStack has been developed over several years, and tested through
+![]({{ site.baseurl }}/images/unet_post.png "UnetStack")
+
+[UnetStack](http://www.unetstack.net/doc/html/index.html) has been developed over several years, and tested through
 numerous underwater network experiments at sea.  A community version of
 UnetStack has recently been made freely available for academic and
 research use.  This version allows rapid development and simulation of
 underwater networking protocols.  Once protocols are developed and
 testing using this framework, they can be deployed without the need for
-porting in any UnetStack-compliant underwater modem for field use.
+porting in any [UnetStack-compliant underwater modem]({{ site.baseurl }}/technology/) for field use.

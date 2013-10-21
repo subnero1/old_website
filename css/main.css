@@ -527,3 +527,8 @@ text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
+
+.date{
+  color:#888888;
+  font-style:oblique;
+}
