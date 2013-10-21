@@ -568,32 +568,20 @@ padding-top: 30px;
 /*
 /*****************************************************************************/
 
-.contact {
-  width:900px;
-  margin-right: auto;
+table:first-child{
+  margin-right: 0%;
   margin-left: auto;
 }
-.contact .address{
-  width: 55%;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 400;
-  font-family: 'Open Sans';
+
+table:nth-child(2n){
+  float:center;
+  margin-left: 0%;
   text-align: justify;
-  font-size: 100%;
-  font-weight: 400;
-  color: #333333;
-  line-height: 170%;
-  padding-top: 
 }
 
-.contact img{
-   float: left;
-   padding-right: 40px;
-
-}
-
-.contact a{
+table{
+  width:49%;
+  float:left;
 }
 
 /*****************************************************************************/

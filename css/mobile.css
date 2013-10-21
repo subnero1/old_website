@@ -576,36 +576,27 @@ text-align: left;
 /*
 /*****************************************************************************/
 
-.contact {
-  width:100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-.contact .address{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 400;
-  font-family: 'Open Sans';
-  text-align: justify;
-  font-size: 100%;
-  font-weight: 400;
-  color: #333333;
-  line-height: 170%;
-  padding-top: 
-}
-
 .contact img{
-   float: left;
-   padding-right: 40px;
-
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+table:first-child{
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.contact a{
- 
-
+table:nth-child(2n){
+  float:center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
 }
 
+table{
+  width:49%;
+  float:left;
+}
 /*****************************************************************************/
 /*
 /* Posts
