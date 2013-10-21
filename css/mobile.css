@@ -528,8 +528,6 @@ text-align: left;
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-
-
 }
 
 .blog {
@@ -546,4 +544,9 @@ text-align: left;
 .date{
   color:#888888;
   font-style: oblique;
+}
+
+img[alt=center] {
+  display: block;
+  margin: auto;
 }

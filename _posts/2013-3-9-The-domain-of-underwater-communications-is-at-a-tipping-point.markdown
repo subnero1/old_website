@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Technology featured in Economist
-date:   2013-10-20
+date:   2013-3-9
 ---
 
-![]({{ site.baseurl }}/images/CaptNemo.jpg)
+![center]({{ site.baseurl }}/images/CaptNemo.jpg)
 
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.

@@ -535,3 +535,8 @@ padding-top: 30px;
   color:#888888;
   font-style: oblique;
 }
+
+img[alt=center] {
+  display: block;
+  margin: auto;
+}
