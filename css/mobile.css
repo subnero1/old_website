@@ -576,12 +576,14 @@ text-align: left;
 /*
 /*****************************************************************************/
 
-.contact img{
-  width: 300px;
+.contact{
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
+
 table:first-child{
+  float: center;
   margin-right: auto;
   margin-left: auto;
 }
@@ -590,7 +592,7 @@ table:nth-child(2n){
   float:center;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: center;
 }
 
 table{
