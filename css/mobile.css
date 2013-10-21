@@ -234,8 +234,10 @@ div#footer{
   margin-right: auto;
 }
 .technology .Trio{
-margin-left: 0px;
-float: right;
+margin-left: auto;
+margin-right: auto;
+
+width:100%;
 }
 .technology h1{
 color :#e6782f;
@@ -341,6 +343,11 @@ text-align: left;
 }
 .solutions a{
  color: #e6782f;
+}
+.solutions img{
+ width: 100%;
+ margin-right: auto;
+ margin-left: auto;
 }
 .solutions .text{
   width: 90%;
@@ -527,6 +534,11 @@ text-align: left;
   margin-right: auto;
 }
 
+.blog img{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .date{
   color:#888888;
   font-style: oblique;
