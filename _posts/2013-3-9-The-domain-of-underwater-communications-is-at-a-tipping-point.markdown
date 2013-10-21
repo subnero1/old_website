@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technology featured in Economist
+title: Underwater networking technology featured in The Economist
 date:   2013-3-9
 ---
 
