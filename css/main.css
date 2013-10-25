@@ -271,7 +271,7 @@ div#footer{
     -ms-transition: opacity 0.2s linear;
     -o-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
-    opacity: 0.2;
+    opacity: 1;
 }
 .slider-wrapper:hover #slider-control-nav { opacity: 1; }
 #slider-control-nav a {
@@ -646,4 +646,14 @@ table{
 img[alt=center] {
   display: block;
   margin: auto;
+}
+img[alt=right] {
+  display: block;
+  margin: auto;
+  float: right;
+  padding-bottom: 20px;
+}
+
+a > img{
+    border: 0;
 }
