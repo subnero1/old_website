@@ -278,7 +278,7 @@ div#footer{
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url(/images/bullets.png) no-repeat 0 0;
+    background: url({{ site.baseurl }}/images/bullets.png) no-repeat 0 0;
     text-indent: -9999px;
     margin: 0 3px;
     -webkit-transition: none;
