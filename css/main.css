@@ -278,7 +278,7 @@ div#footer{
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url({{ site.baseurl }}/images/bullets.png) no-repeat 0 0;
+    background: url(/images/bullets.png) no-repeat 0 0;
     text-indent: -9999px;
     margin: 0 3px;
     -webkit-transition: none;
@@ -359,6 +359,11 @@ and (max-device-width : 1024px) {
 .technology .Trio{
 margin-left: 0px;
 float: right;
+}
+.technology .UnetArch img{
+  width: 300px;
+  margin-left: 10px;
+  float: right;
 }
 .technology h1{
 color :#e6782f;

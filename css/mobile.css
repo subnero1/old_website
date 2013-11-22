@@ -276,7 +276,7 @@ div#footer{
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url({{ site.baseurl }}/images/bullets.png) no-repeat 0 0;
+    background: url(/images/bullets.png) no-repeat 0 0;
     text-indent: -9999px;
     margin: 0 3px;
     -webkit-transition: none;
@@ -356,6 +356,11 @@ and (max-device-width : 1024px) {
   margin-right: auto;
 }
 .technology .Trio{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.technology .UnetArch img{
   width: 100%;
   margin-left: auto;
   margin-right: auto;
