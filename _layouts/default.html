@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% if page.url == "/products/index.html"%}
+          <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/technology">
+        {% endif %}
+        
+        {% if page.url == "/products/index.html"%}
+          <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/technology">
+        {% endif %}
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
@@ -59,7 +67,7 @@
         </div>
         <div id="menu_container">
           <ul class="links primary-links">
-            <li class="menu-122"><a href="{{ site.baseurl }}/" class="active"><img src="{{ site.baseurl }}/images/home.png"></a></li>
+            <li class="menu-122"><a href="{{ site.baseurl }}/" class="active"><img src="{{ site.baseurl }}/images/home.png"style="width:25px;"></a></li>
             <li class="menu-123"><a href="{{ site.baseurl }}/about/">About</a></li>
             <li class="menu-125"><a href="{{ site.baseurl }}/technology/">Technology</a></li>
             <li class="menu-126"><a href="{{ site.baseurl }}/solutions/">Solutions</a></li>
