@@ -591,11 +591,50 @@ table{
 }
 
 .directions{
-  margin-top: 10%;
+  margin-top: 20%;
   margin-left: 0%;
   margin-right: 0%;
   float: left;
 }
+
+.contacts{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col1
+{
+  width:35%;
+  float: left;
+  margin-left: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+
+}
+.col1 img{
+  float:left;
+  margin-left:0px;
+}
+.col1 a{
+  float:left;
+}
+  
+.col2
+{
+  float: left;
+  width: 37%;
+  margin-left: 3%; 
+  text-align: left;
+  margin:20px;
+}
+.direct
+{
+  width:100%;
+  clear:both;
+  text-align: justify;
+  margin-top: 20px;
+}
+
 
 /*****************************************************************************/
 /*

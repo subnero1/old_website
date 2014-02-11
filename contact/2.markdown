@@ -2,4 +2,20 @@
 layout: default
 title: Contact
 ---
-oehubj
+
+<img src="{{ site.baseurl }}/images/SubneroMap.png"style="float:left;margin:20px">
+
+
+Contact
+=======
+
+<div class="vcard" style="float:left">
+<p class="adr">
+<span class="street-address"></span><br>
+<span class="region">E4-02-12X,</span><br>
+<span class="postal-code">117583</span><br>
+<span class="country-name">Singapore</span>
+</p>
+<p class="tel">+65 9819 9552</p>
+</div>
+
