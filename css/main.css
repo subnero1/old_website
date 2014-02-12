@@ -622,10 +622,18 @@ table{
 .col2
 {
   float: left;
-  width: 37%;
+  width: 30%;
   margin-left: 3%; 
   text-align: left;
   margin:20px;
+}
+.col2 img{
+  float:left;
+
+}
+.col3 {
+  float:left;
+  width:30%;
 }
 .direct
 {
