@@ -590,17 +590,12 @@ table{
   float:left;
 }
 
-.directions{
-  margin-top: 20%;
-  margin-left: 0%;
-  margin-right: 0%;
-  float: left;
-}
 
 .contacts{
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+
 }
 .col1
 {
@@ -641,6 +636,16 @@ table{
   clear:both;
   text-align: justify;
   margin-top: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: justify;
+  font-size: 100%;
+  font-weight: 400;
+  color: #333333;
+  line-height: 170%;
+}
+.direct ul{
+  margin-left: 12px;
 }
 
 
