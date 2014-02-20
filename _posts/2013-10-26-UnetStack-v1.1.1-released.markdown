@@ -10,13 +10,13 @@ UnetStack v1.1.1 is now available for download
  
 The intent of UnetStack is to provide a framework for promoting community collaboration in the underwater networks arena. Key elements include:
 
-- Agent-based network stack
-- Customizable, extensible and scriptable
-- Cross-layer cooperation
-- Run same code in simulator and modem
-- Interactive shell and remote access
-- Supports multiple acoustic and RF links
-- Easy to learn and use!
+* Agent-based network stack
+* Customizable, extensible and scriptable
+* Cross-layer cooperation
+* Run same code in simulator and modem
+* Interactive shell and remote access
+* Supports multiple acoustic and RF links
+* Easy to learn and use!
 
 The extensible underwater stack implementation (UnetStack) & related documentation, and a simulator for underwater networks are available for download at www.unetstack.net. An active discussion board is also available for troubleshooting support and general underwater networking-related discussions.
  
