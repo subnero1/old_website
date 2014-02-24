@@ -581,10 +581,62 @@ text-align: left;
 /*
 /*****************************************************************************/
 
-.contact{
-  width: 100%;
+.contacts{
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.col1
+{
+  width:90%;
+  float: center;
+  text-align: justify;
+  margin: 0 auto;
+
+}
+.col1 img{
+  float:center;
+}
+.col1 a{
+  float:center;
+  margin: 0 auto;
+
+}
+  
+.col2
+{
+  float: center;
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+
+}
+.col2 img{
+  float:center;
+
+}
+.col3 {
+  float:center;
+  width:90%;
+}
+.direct
+{
+  width:90%;
+  clear:both;
+  text-align: justify;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: justify;
+  font-size: 100%;
+  font-weight: 400;
+  color: #333333;
+  line-height: 170%;
+}
+.direct ul{
+}
+.direct h2{
 }
 
 table:first-child{
@@ -669,4 +721,37 @@ table{
 img[alt=center] {
   display: block;
   margin: auto;
+}
+blockquote {
+font-family: Georgia, serif;
+font-size: 15px;
+font-style: italic;
+width: 90%;
+margin: 0.25em 0;
+padding: 0.30em 2%;
+line-height: 1.45;
+position: relative;
+color: #333333;
+}
+
+blockquote:before {
+display: block;
+padding-left: 10px;
+content: "\201C";
+font-size: 50px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
 }
