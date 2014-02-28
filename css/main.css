@@ -744,7 +744,7 @@ blockquote:before {
 display: block;
 padding-left: 10px;
 content: "\201C";
-font-size: 70px;
+font-size: 70gpx;
 position: absolute;
 left: -20px;
 top: -20px;
