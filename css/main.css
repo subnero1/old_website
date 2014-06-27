@@ -39,6 +39,16 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  margin-bottom: 0em;
+  color :#e6782f;
+  font-size: 115%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #333333;
+  font-style: italic;
+}
+
 p {
   margin: 1em 0; 
 }

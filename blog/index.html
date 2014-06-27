@@ -9,6 +9,7 @@ title: Blog
   {% for post in site.posts %}
     <li>
       <h2>{{ post.title }}</h2>
+      <h3>{{ post.sub }}</h3><br>
       <div class="date">Posted on {{ post.date | date: "%-d %B %Y" }}</div>
        <p>{{ post.content }}</p> 
        <br>
