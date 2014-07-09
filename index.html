@@ -2,33 +2,24 @@
 layout: default
 title: Subnero
 ---
-<!-- jQuery library (served from Google) -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="{{ site.baseurl }}/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="{{ site.baseurl }}/jquery.bxslider.css" rel="stylesheet" />
 
-<ul class="bxslider">
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="{{ site.baseurl }}/unslider.min.js"></script>
+
+<div class="unslider">
+<ul>
     <li><img src="{{ site.baseurl }}/images/1.jpg"></li>
     <li><img src="{{ site.baseurl }}/images/2.jpg"></li>
     <li><img src="{{ site.baseurl }}/images/3.jpg"></li>
     <li><img src="{{ site.baseurl }}/images/4.jpg"></li>
 </ul>
+</div>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-    $('.bxslider').bxSlider(
-    {
-      auto: true,
-      mode: 'fade',
-      controls:false,
-      slideWidth: 800,
-      responsive: true,
-      pause: 7000
+<script>
+  $(function() {
+    $('.unslider').unslider({
+      delay: 7000,
+      dots: true,
     });
-
 });
-    </script>
-
-   
+</script>
