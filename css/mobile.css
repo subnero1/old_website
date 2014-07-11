@@ -173,6 +173,50 @@ div#footer{
   color: #888888;
 }
 
+.unslider {
+ position: relative;
+ overflow: auto;
+ height: 100%;
+ 
+}
+.unslider img {
+  width: 100%;
+}
+    .unslider li { list-style: none;height: 100%; }
+        .unslider ul li { float: left; height: 100%;}
+        .unslider ul{
+        }
+
+  
+  .unslider .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+  }
+    .unslider .dots li {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      margin: 0 4px;
+      
+      text-indent: -999em;
+      
+      background: #888888;
+      border: 2px solid #888888;
+      border-radius: 10px;
+      
+      cursor: pointer;
+      opacity: 0.8;
+    
+    }
+      .unslider .dots li.active {
+        background: #000;
+        border: 2px solid #000;
+        opacity: 1;
+      }
+
+
 .fadein { 
   position:relative; 
   width:100%;
