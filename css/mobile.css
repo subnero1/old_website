@@ -518,6 +518,19 @@ text-align: left;
   border-right:0px solid #e6782f;
 }
 
+.UNET {
+  color:#000000;
+  font-size: 170%;
+  font-family: 'Open Sans';
+  font-weight: 800;
+
+
+}
+.UNET a{
+  text-decoration: none;
+  color: #000000;
+}
+
 /*************************************************************************/
 /*Solutions
 /*************************************************************************/
@@ -709,6 +722,25 @@ table:nth-child(2n){
 table{
   width:49%;
   float:left;
+}
+
+.OCEANS {
+  border:1px solid #EEEEEE;
+  background-color:#EEEEEE;
+
+}
+
+.OCEANS p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 103%;
+  font-weight: 400;
+  color: #333333;
+  line-height: 170%;
 }
 /*****************************************************************************/
 /*
