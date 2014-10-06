@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Software-defined networking takes a big leap forward in underwater communications
 date:   2013-9-1
 ---

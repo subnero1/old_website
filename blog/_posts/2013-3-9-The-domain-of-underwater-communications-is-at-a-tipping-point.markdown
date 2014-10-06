@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Underwater networking technology featured in The Economist
 date:   2013-3-9
 ---

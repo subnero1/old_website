@@ -494,9 +494,9 @@ text-align: left;
 }
 .UNET {
   color:#000000;
-  font-size: 170%;
+  font-size: 140%;
   font-family: 'Open Sans';
-  font-weight: 800;
+  font-weight: 700;
 
 
 }
@@ -765,12 +765,37 @@ table{
   color: #333333;
 }
 
+.ListNews {
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+}
+
+.ListNews ul{
+  margin-left: 15px;
+}
+
+
 
 .blog {
   width:900px;
   margin-left: auto;
   margin-right: auto;
 }
+.blog img{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news {
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .date{
   color:#888888;

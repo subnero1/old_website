@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: World Water Day
 date:   2014-03-22
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: UnetStack v1.1.1 Released!
 date:   2013-10-26
 ---

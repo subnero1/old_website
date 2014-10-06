@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: Quest For a standard
 date:   2014-02-24
 ---

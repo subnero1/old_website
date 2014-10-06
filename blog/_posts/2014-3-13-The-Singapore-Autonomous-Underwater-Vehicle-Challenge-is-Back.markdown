@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: The Singapore Autonomous Underwater Vehicle Challenge Is Back
 date:   2014-03-13
 ---

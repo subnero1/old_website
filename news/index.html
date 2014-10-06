@@ -1,0 +1,22 @@
+---
+layout: default
+title: News
+---
+
+<div class="news">
+<div class="ListNews">
+<ul>
+  {% for post in site.posts %}
+	  {% if post.category contains 'news' %}
+	  <li>
+	  	<div class="post">
+	  	    <h2 class="title"><a href="{{ post.external_url }}" target="_blank" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" >{{ post.title }} 
+	  	    </a></h2>
+	  	    <p>{{ post.content }}</p>
+	  		<br>
+		</div>
+	</li>
+	{% endif %}
+  {% endfor %}
+  </div>
+</ul>
