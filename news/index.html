@@ -12,7 +12,10 @@ title: News
 	  	<div class="post">
 	  	    <h2 class="title"><a href="{{ post.external_url }}" target="_blank" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" >{{ post.title }} 
 	  	    </a></h2>
+			<div class="date">Posted on {{ post.date | date: "%-d %B %Y" }}  &nbsp &nbsp Source {{ post.source }}</div>
+
 	  	    <p>{{ post.content }}</p>
+
 	  		<br>
 		</div>
 	</li>
