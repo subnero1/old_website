@@ -355,11 +355,7 @@ and (max-device-width : 1024px) {
   margin-left: auto;
   margin-right: auto;
 }
-.about img{
-  width: 313px; 
-  float: right;
-  padding-left: 30px;
-}
+
 .about .text{
   width: 90%;
   margin-left: auto;
@@ -574,8 +570,8 @@ padding-top: 30px;
 .solutions a{
  color: #e6782f;
 }
-.solutions .text p,h1,h2{
-  width: 90%;
+.solutions .text p{
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   font-weight: 400;
@@ -586,7 +582,7 @@ padding-top: 30px;
   color: #333333;
   line-height: 170%;
 }
-.solutions h1{
+.solutions .text h1{
   color :#e6782f;
   font-size: 170%;
   font-family: 'Open Sans';
@@ -594,7 +590,7 @@ padding-top: 30px;
   text-align: left;
 }
 
-.solutions h2{
+.solutions .text h2{
   color :#e6782f;
   font-size: 125%;
   font-family: 'Open Sans';
@@ -849,7 +845,6 @@ table{
   margin-right: auto;
 }
 .blog img{
-  width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
