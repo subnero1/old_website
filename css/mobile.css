@@ -588,31 +588,60 @@ text-align: left;
 /*Solutions
 /*************************************************************************/
 .solutions{
-  width:100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+.SolutionsNetorking{
+  width: 100%;
+  text-align: justify;
+  float: left;
+}
+.Unav {
+  width: 100%;
+  text-align: justify;
+}
+
+.IoT{
+  width: 100%;
+}
+.IoT iframe{
+  width: 100%;
+}
+
+.WaterMon {
+  width:  100%;
+  text-align: justify;
+}
+
+.Swan {
+  width: 100%;
+  margin-top: 10%; 
+}
+
+.Swan iframe{
+  width: 100%;
+}
+.solutions img{
+padding-top: 30px;
+width: 100%;
 }
 .solutions a{
  color: #e6782f;
 }
-.solutions img{
- width: 100%;
- margin-right: auto;
- margin-left: auto;
-}
-.solutions .text{
-  width: 90%;
+.solutions .text p{
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   font-weight: 400;
   font-family: 'Open Sans';
-  text-align: justify;
+  text-align: left;
   font-size: 100%;
   font-weight: 400;
   color: #333333;
   line-height: 170%;
 }
-.solutions h1{
+.solutions .text h1{
   color :#e6782f;
   font-size: 170%;
   font-family: 'Open Sans';
@@ -620,7 +649,7 @@ text-align: left;
   text-align: left;
 }
 
-.solutions h2{
+.solutions .text h2{
   color :#e6782f;
   font-size: 125%;
   font-family: 'Open Sans';
@@ -630,9 +659,7 @@ text-align: left;
   margin-top: 10px;
 }
 
-.solutions iframe{
-  width: 100%;
-}
+
 .site {
   font-size: 115%;
   text-align: justify;

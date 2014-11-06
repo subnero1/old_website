@@ -564,8 +564,44 @@ text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
+.SolutionsNetorking{
+  text-align: justify;
+  float: left;
+}
+.Unav {
+  width: 40%;
+  text-align: justify;
+  float: left;
+}
+
+.IoT{
+  width: 58%;
+  float: right;
+}
+.IoT iframe{
+  width: 475px;
+  height: 267px;
+}
+
+.WaterMon {
+  width:  40%;
+  text-align: justify;
+  float: left;
+}
+
+.Swan {
+  width: 58%;
+  float: right;
+  margin-top: 10%; 
+}
+
+.Swan iframe{
+  width: 475px;
+  height: 267px;
+}
 .solutions img{
 padding-top: 30px;
+width: 90%;
 }
 .solutions a{
  color: #e6782f;
@@ -576,7 +612,7 @@ padding-top: 30px;
   margin-right: auto;
   font-weight: 400;
   font-family: 'Open Sans';
-  text-align: justify;
+  text-align: left;
   font-size: 100%;
   font-weight: 400;
   color: #333333;
@@ -600,13 +636,7 @@ padding-top: 30px;
   margin-top: 10px;
 }
 
-.solutions iframe{
-  width: 560px;
-  height: 315px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+
 .site {
   font-size: 115%;
   text-align: justify;
