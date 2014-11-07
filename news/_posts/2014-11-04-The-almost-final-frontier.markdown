@@ -3,7 +3,7 @@ layout: post
 category: news
 title: The (almost) final frontier&#58; Singapore takes the Internet underwater
 external_url: http://gblogs.cisco.com/asiapacific/singapore-takes-the-internet-underwater/
-source : gblogs.cisco.com/
+source : cisco.com
 date:   2014-11-04
 ---
 
