@@ -7,4 +7,4 @@ source : businessworld.in
 date:   2014-10-16
 ---
 
-Considering that over 70 per cent of the planet is covered by water, there needs to be a means to remain connected underwater
+Considering that over 70 per cent of the planet is covered by water, there needs to be a means to remain connected underwater.

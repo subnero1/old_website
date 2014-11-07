@@ -1,7 +1,7 @@
 ---
 layout: post
 category: news
-title: How do submarines get online
+title: How do submarines get online?
 external_url: http://www.wired.co.uk/magazine/archive/2014/06/start/undersea-internet
 source : wired.co.uk
 date:   2014-05-29
