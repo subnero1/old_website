@@ -8,4 +8,4 @@ source : economist.com
 date:   2013-3-9
 ---
 
-Emerging undersea data networks are connecting submarines, aquatic drones and other denizens of the deep
+Emerging undersea data networks are connecting submarines, aquatic drones and other denizens of the deep.

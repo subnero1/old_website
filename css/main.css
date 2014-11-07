@@ -566,12 +566,14 @@ text-align: left;
 }
 .SolutionsNetorking{
   text-align: justify;
-  float: left;
+  margin-bottom: 20px;
 }
+
 .Unav {
   width: 40%;
   text-align: justify;
   float: left;
+  margin-bottom: 10px;
 }
 
 .IoT{
@@ -601,7 +603,10 @@ text-align: left;
 }
 .solutions img{
 padding-top: 30px;
-width: 90%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+clear: both;
 }
 .solutions a{
  color: #e6782f;
@@ -618,7 +623,7 @@ width: 90%;
   color: #333333;
   line-height: 170%;
 }
-.solutions .text h1{
+.solutions h1{
   color :#e6782f;
   font-size: 170%;
   font-family: 'Open Sans';
