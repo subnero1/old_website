@@ -5,6 +5,8 @@ title: News
 
 <div class="news">
 <div class="ListNews">
+<br>
+<br>
 <ul>
   {% for post in site.posts %}
 	  {% if post.category contains 'news' %}
@@ -14,7 +16,7 @@ title: News
 	  	    </a></h2>
 			<div class="date">Posted on {{ post.date | date: "%-d %B %Y" }}  &nbsp &nbsp Source {{ post.source }}</div>
 
-	  	    <p>{{ post.content }}</p>
+	  	    <!--<p>{{ post.content }}</p> --> <!-- uncomment to enable one liner descriptions --> 
 
 	  		<br>
 		</div>
