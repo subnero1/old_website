@@ -556,6 +556,48 @@ text-align: left;
   text-decoration: none;
   color: #000000;
 }
+
+.Tech{
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left{
+  width: 35%;
+  float: left;
+  margin-left: 15%;
+  height: 300px;
+}
+.right{
+  width: 50%;
+  float: right;
+  height: 300px;
+  margin-right: 0%;
+  position: relative;
+}
+.right p{
+] text-align:left;
+  position: absolute;
+  top: 50%;
+  
+  font-size: 115%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #333333;
+  font-style: italic;
+  transform: translate(0, -50%) };
+
+
+}
+
+
+
+/**********************************************************************/
+/*Swan
+/**********************************************************************/
+
+
 /*************************************************************************/
 /*Solutions
 /*************************************************************************/
