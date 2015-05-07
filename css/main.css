@@ -489,7 +489,7 @@ text-align: left;
 
 /*************************************************************************/
 .CSSTableGenerator1 {
-  margin:20px;padding:5px;
+  margin:0px;padding:5px;
   width:100%;
 }.CSSTableGenerator1 table{
   width:100%;
@@ -557,40 +557,49 @@ text-align: left;
   color: #000000;
 }
 
-.Tech{
-  width:900px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .left{
-  width: 35%;
+  width: 45%;
   float: left;
-  margin-left: 15%;
+  margin-left: 5%;
   height: 300px;
 }
+
+
 .right{
-  width: 50%;
+  width: 45%;
   float: right;
   height: 300px;
-  margin-right: 0%;
-  position: relative;
+  margin-right: 5%;
+  display: table;
 }
-.right p{
-] text-align:left;
-  position: absolute;
-  top: 50%;
-  
-  font-size: 115%;
+
+.short {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.short p {
+  text-align: justify;
+  float: left;
+  font-size: 100%;
   font-family: 'Open Sans';
   font-weight: 400;
-  color: #333333;
-  font-style: italic;
-  transform: translate(0, -50%) };
-
-
+  margin:0; 
 }
-
+.short h2{
+text-align: justify;
+}
+.readmore{
+  font-size: 95%;
+  text-align: justify;
+  float: left;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin:0; 
+  color: #888;
+  text-decoration: underline;
+}
 
 
 /**********************************************************************/
