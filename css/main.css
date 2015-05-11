@@ -557,19 +557,23 @@ text-align: left;
   color: #000000;
 }
 
+.tiles a{
+  text-decoration: none;
+  color: #000000;
+}
 
 .left{
   width: 45%;
   float: left;
   margin-left: 5%;
-  height: 300px;
+  height: 250px;
 }
 
 
 .right{
   width: 45%;
   float: right;
-  height: 300px;
+  height: 250px;
   margin-right: 5%;
   display: table;
 }
