@@ -467,6 +467,12 @@ and (max-device-width : 1024px) {
   margin-left: auto;
   margin-right: auto;
 }
+.technology .swan{
+  width: 100%;
+}
+.technology .swan iframe{
+  width: 100%;
+}
 .technology .UnetArch img{
   width: 100%;
   margin-left: auto;

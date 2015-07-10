@@ -1,6 +1,6 @@
 name: SubneroSite
 markdown: redcarpet
-baseurl: http://subnero.bitbucket.org
-#baseurl: http://www.subnero.com
+#baseurl: http://subnero.bitbucket.org
+baseurl: http://www.subnero.com
 permalink: /:title
 layouts: ./_layouts
