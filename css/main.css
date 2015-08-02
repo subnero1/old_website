@@ -450,9 +450,8 @@ float: right;
 }
 
 .technology .swan{
-  margin-left: 10px;
-  float: right;
-
+  margin-left: 0px;
+  float: righ
 }
 .technology .UnetArch img{
   width: 300px;
