@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: The Need for a Better Monitoring Solution
-date:   2015-9-01
+date:   2015-8-01
 ---
 
 With harmful algal blooms, eutrophication and emerging contaminants, monitoring of water bodies has become increasingly important. However water bodies cannot be modelled as isolated systems; many external factors such as urbanisation and other human activities affect them.
