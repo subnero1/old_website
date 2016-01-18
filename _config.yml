@@ -1,6 +1,6 @@
-name: SubneroSite
-markdown: redcarpet
-#baseurl: http://subnero.bitbucket.org
-baseurl: http://www.subnero.com
-permalink: /:title
-layouts_dir: ./_layouts
+name:        Subnero
+permalink:   /:title
+markdown:    redcarpet
+url:         //subnero.com
+timezone:    Asia/Singapore
+encoding:    UTF-8
