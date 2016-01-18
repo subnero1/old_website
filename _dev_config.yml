@@ -1,0 +1,6 @@
+name:        Subnero
+permalink:   /:title
+markdown:    redcarpet
+url:         //localhost:4000
+timezone:    Asia/Singapore
+encoding:    UTF-8
