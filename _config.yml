@@ -3,4 +3,4 @@ markdown: redcarpet
 #baseurl: http://subnero.bitbucket.org
 baseurl: http://www.subnero.com
 permalink: /:title
-layouts: ./_layouts
+layouts_dir: ./_layouts
