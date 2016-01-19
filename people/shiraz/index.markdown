@@ -4,7 +4,7 @@ title: Shiraz Shahabudeen
 ---
 
 <div style="float: left;">    
-	<img src="{{ site.baseurl }}/images/shiraz.jpg">
+	<img src="/images/shiraz.jpg">
 	 Dr. Shiraz Shahabudeen has held various engineering roles including at Infocomm Development Authority of Singapore (IDA), NeST Software, India etc. He was a Research Fellow at ARL, National University of Singapore (NUS) where his research interests included underwater acoustic communications and autonomous underwater vehicles. Dr. Shahabudeen holds a B.Eng from NUS,  M.S in Telecommunication Engineering from Melbourne University (Australia) and a PhD from NUS in Underwater Communications.
 
 </div>
@@ -35,11 +35,11 @@ title: Shiraz Shahabudeen
 
 [12] S. Shahabudeen, M. A. Chitre, J. R. Potter, and M. Motani, “Multi-Mode Adaptive MAC Protocol Suite and Standardization Proposal for Heterogeneous Underwater Acoustic Networks,” in Underwater Acoustics Measurements 2009 Conference, Nafplion, Greece, June 2009.
 
-[13] Y. T. Tan, M. A. Chitre, P. Vadakkepat, and S. Shahabudeen, “Design and Development of Command and Control System for Autonomous Underwater Vehicles,” in DTA 2009, March 2009. 
+[13] Y. T. Tan, M. A. Chitre, P. Vadakkepat, and S. Shahabudeen, “Design and Development of Command and Control System for Autonomous Underwater Vehicles,” in DTA 2009, March 2009.
 
-[14] S. Shahabudeen, M. A. Chitre, and M. Motani, “A multi-channel MAC protocol for AUV networks,” in OCEANS 2007 - Europe, pp. 1-6, June 2007. 
+[14] S. Shahabudeen, M. A. Chitre, and M. Motani, “A multi-channel MAC protocol for AUV networks,” in OCEANS 2007 - Europe, pp. 1-6, June 2007.
 
-[15] P. D. Deshpande, M. N. Sangekar, B. Kalyan, M. A. Chitre, S. Shahabudeen, V. Pallayil, and T. B. Koay, “Design and Development of AUVs for cooperative missions,” in Defence Technology Asia, Singapore, March 22 2007. 
+[15] P. D. Deshpande, M. N. Sangekar, B. Kalyan, M. A. Chitre, S. Shahabudeen, V. Pallayil, and T. B. Koay, “Design and Development of AUVs for cooperative missions,” in Defence Technology Asia, Singapore, March 22 2007.
 
 [16] J. R. Potter, M. A. Chitre, and S. Shahabudeen, “Tropical shallow water acoustic communications for ad-hoc networking of coastal autonomous assets,” in Defence Technology Asia 2006, Shangri-La Hotel, Singapore, May 24-25 2006.
 

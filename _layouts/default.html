@@ -2,7 +2,7 @@
 <html>
     <head>
         {% if page.url == "/products/index.html"%}
-          <meta http-equiv="refresh" content="0; url={{ site.url }}/technology">
+          <meta http-equiv="refresh" content="0; url=/technology">
         {% endif %}
 
         <meta charset="utf-8">
@@ -29,38 +29,38 @@
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="1 days">
 
-        <link href="{{ site.url }}/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.css">
-        <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 960px)" href="{{ site.url }}/css/mobile.css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 960px)" href="/css/mobile.css" />
 
           <!-- Custom Font -->
         <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400' >
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
+        <link rel="stylesheet" href="/css/syntax.css">
 
     </head>
     <body>
       <div id="main">
         <div id="header_container">
-          <div class="container lineleft"><img src="{{ site.url }}/images/orange_line.png"/></div>
+          <div class="container lineleft"><img src="/images/orange_line.png"/></div>
           <div class="logo">
-            <a href="{{ site.url }}/"> <img src="{{ site.url }}/images/subnero_logo.png"/></a>
+            <a href="/"> <img src="/images/subnero_logo.png"/></a>
           </div>
-          <div class="container lineright"><img src="{{ site.url }}/images/orange_line.png"/></div>
+          <div class="container lineright"><img src="/images/orange_line.png"/></div>
         </div>
         <div id="menu_container">
           <ul class="links primary-links">
-            <li class="menu-122"><a href="{{ site.url }}/" class="active"><img src="{{ site.url }}/images/home.png"style="width:25px;"></a></li>
-            <li class="menu-123"><a href="{{ site.url }}/about">About</a></li>
-            <li class="menu-125"><a href="{{ site.url }}/technology">Technology</a></li>
-            <li class="menu-126"><a href="{{ site.url }}/solutions">Solutions</a></li>
-            <li class="menu-127"><a href="{{ site.url }}/blog">Blog</a></li>
-            <li class="menu-129"><a href="{{ site.url }}/news">News</a></li>
-            <li class="menu-130"><a href="{{ site.baseurl }}/career">Careers</a></li>
-            <li class="menu-128 last"><a href="{{ site.baseurl }}/contact">Contact</a></li>
+            <li class="menu-122"><a href="/" class="active"><img src="/images/home.png"style="width:25px;"></a></li>
+            <li class="menu-123"><a href="/about">About</a></li>
+            <li class="menu-125"><a href="/technology">Technology</a></li>
+            <li class="menu-126"><a href="/solutions">Solutions</a></li>
+            <li class="menu-127"><a href="/blog">Blog</a></li>
+            <li class="menu-129"><a href="/news">News</a></li>
+            <li class="menu-130"><a href="/career">Careers</a></li>
+            <li class="menu-128 last"><a href="/contact">Contact</a></li>
           </ul>
         </div>
           {{ content }}

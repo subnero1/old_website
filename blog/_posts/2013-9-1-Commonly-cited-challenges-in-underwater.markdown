@@ -5,7 +5,7 @@ title: Software-defined networking takes a big leap forward in underwater commun
 date:   2013-9-1
 ---
 
-![right]({{ site.baseurl }}/images/unet_post.png "UnetStack")
+![right](/images/unet_post.png "UnetStack")
 
 Commonly cited challenges in underwater networks include low bandwidth,
 long propagation delay, half-duplex nature of the links, high packet
@@ -20,7 +20,7 @@ provide well-defined services to allow good separation of concern while
 allowing information to be shared, services to be provided, and
 behaviors to be negotiated between different agents. The resulting
 solution is flexible and allows software-defined underwater networks to
-be rapidly designed, simulated, tested and deployed. 
+be rapidly designed, simulated, tested and deployed.
 
 <a href="http://www.unetstack.net/doc/html/index.html" target="_blank">UnetStack</a> has been developed over several years, and tested through
 numerous underwater network experiments at sea.  A community version of
