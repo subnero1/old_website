@@ -1,0 +1,152 @@
+---
+layout: default
+title: Modem
+---
+
+<div class="technology">
+
+    <div class="text">
+        <h1>Overview</h1>
+        <div class="Trio">
+            <img src="/images/Trio2.jpg">
+        </div>
+        <p>Communicating, navigating and monitoring underwater are challenging problems that entail a number of hurdles specific to the domain. Adopting land based technologies like Wi-Fi™ &amp; GPS is not possible as they use electromagnetic waves that are rapidly absorbed in water. Communication, the key enabler for networking, navigation and sensing, requires a high level of flexibility over physical layer signaling, sensing as well as granular control over timing (transmission &amp; reception).
+        </p>
+        <h2>Software-defined Modem</h2>
+        <p>
+            The software-defined Subnero underwater modem provides a flexible platform for a variety of underwater networks and applications. With substantial computing power packed into a compact form factor, users are able to implement and deploy complex algorithms in the modem, hence allowing robust communication between underwater nodes as well as driving the innovation of new protocols and applications. The modem provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+        </p>
+        <h2>Key Features</h2>
+        <ul>
+            <li>World’s first software-defined underwater communications modem, featuring <a href="#UnetStack">UnetStack</a></li>
+            <li>Multiple logical channels with user-configurable modulation/FEC</li>
+            <li>Timed transmission, hardware time-stamping and ranging capability</li>
+            <li>Oven-controlled clock for one-way travel-time ranging</li>
+            <li>Arbitrary waveform transmission, reception and recording</li>
+            <li>Acoustic channel diagnostics</li>
+            <li>Extensively tested in challenging environments</li>
+        </ul>
+        The modem outshines the industry especially in high-noise environments where marine creatures, proximity to shipping channels etc. can generate high levels of ambient noise. Specifications of the modem are provided below:
+        <div class="CSSTableGenerator1">
+            <table>
+                <tr>
+                    <td width="270px">Features</td>
+                    <td>Details</td>
+                    <td width="180px">Remarks</td>
+                </tr>
+                <tr>
+                    <td>Computing Platforms</td>
+                    <td>PXA320 Linux SBC, TigerSHARC DSP, Stratix III FPGA</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Carrier frequency</td>
+                    <td>27 kHz (typical)</td>
+                    <td>User adjustable</td>
+                </tr>
+                <tr>
+                    <td>Bandwidth</td>
+                    <td>2/3 x Carrier frequency</td>
+                    <td>18 kHz (typical)</td>
+                </tr>
+                <tr>
+                    <td>Source level</td>
+                    <td>Max 185 dB re 1μPa @ 1m RMS</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Dynamic Range</td>
+                    <td>138 dB (24-bit ADC)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Frame Detection</td>
+                    <td>3 independent correlators</td>
+                    <td>User configurable</td>
+                </tr>
+                <tr>
+                    <td>Modulation (software defined)</td>
+                    <td>PSK-OFDM, Incoherent OFDM, FH-BFSK</td>
+                    <td>Customisable</td>
+                </tr>
+                <tr>
+                    <td>Error correction codes (software defined)</td>
+                    <td>1/3 rate convolutional, 1/2 rate Golay, 1/6 rate concatenated</td>
+                    <td>Customisable</td>
+                </tr>
+                <tr>
+                    <td>Data rate</td>
+                    <td>0.5 kbps (command link), 2-10 kbps (data link)</td>
+                    <td>Typical, change with settings</td>
+                </tr>
+                <tr>
+                    <td>Oven-controlled clock</td>
+                    <td>1 μs resolution</td>
+                    <td>±0.05 ppm drift</td>
+                </tr>
+                <tr>
+                    <td>Ranging precision</td>
+                    <td>0.1m</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Communication range</td>
+                    <td>2-3 km</td>
+                    <td>Depending on local conditions</td>
+                </tr>
+                <tr>
+                    <td>Network stack (software defined)</td>
+                    <td>
+                        <div class="UNET"><a href="#UnetStack" style="vertical-align:middle;">UNET</a></div>
+                    </td>
+                    <td>User customisable</td>
+                </tr>
+                <tr>
+                    <td>Automation</td>
+                    <td>Groovy scripting support</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Sleep/wake scheduling</td>
+                    <td>Daily schedules, acoustic rescheduling</td>
+                    <td>1 s/day drift</td>
+                </tr>
+                <tr>
+                    <td>Remote management</td>
+                    <td>Ethernet (web/ssh), acoustic commands</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Diagnostics and recording</td>
+                    <td>Raw signal recording, arbitrary waveform transmission,
+                        <br/>correlator output recording, packet capture, full logging</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <p>When used in conjunction with the Subnero Underwater Network Simulator, rapid prototyping of the protocols under varying maritime and freshwater conditions can be achieved. A robust commercial deployment &amp; support framework provides industrial-grade communication solutions suitable for commercial deployments across industries.
+        </p>
+
+
+
+        <h2 id="UnetStack">UnetStack</h2>
+        <div class="UnetArch">
+            <img src="/images/UnetStack.png">
+        </div>
+        <p>
+            UnetStack is an embedded Java/Groovy implementation of the UnetStack specifications based on the open-source fjåge lightweight agent framework. It provides a basic set of agents that allow an underwater network to be deployed. Designed for extensibility, UnetStack allows additional agents for optimized protocols to be rapidly developed, tested and deployed. The stack can easily be integrated with most underwater modems.
+        </p>
+        <strong>Key Features</strong>
+        <ul>
+            <li>Agent-based network stack</li>
+            <li>Customizable, extensible and scriptable</li>
+            <li>Cross-layer cooperation</li>
+            <li>Run same code in simulator and modem</li>
+            <li>Interactive shell and remote access</li>
+            <li>Supports multiple acoustic and RF links</li>
+            <li>Easy to learn and use</li>
+        </ul>
+        <a href="http://www.unetstack.net/doc/html/index.html" target="_blank">Read more…</a>
+    </div>
+</div>
