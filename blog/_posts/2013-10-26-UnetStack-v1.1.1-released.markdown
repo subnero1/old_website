@@ -18,10 +18,10 @@ The intent of UnetStack is to provide a framework for promoting community collab
 * Supports multiple acoustic and RF links
 * Easy to learn and use!
 
-The extensible underwater stack implementation (UnetStack) & related documentation, and a simulator for underwater networks are available for download at www.unetstack.net. An active discussion board is also available for troubleshooting support and general underwater networking-related discussions.
+The extensible underwater stack implementation (UnetStack) &amp; related documentation, and a simulator for underwater networks are available for download at www.unetstack.net. An active discussion board is also available for troubleshooting support and general underwater networking-related discussions.
 
 UnetStack-conformant software-defined modem now available
 
 A modem implementation of UnetStack is now available to unleash the full abilities of the stack in field deployments. The Subnero Underwater Modem (formerly known as the UNET-2 modem) is designed with flexibility and sensibility as basic design objectives, addressing commonly faced constraints with technologies available thus far.
 
-Sea trials and deployment experience have repeatedly proven outstanding performance, including in extremely challenging underwater acoustic conditions. The modem is provided by Subnero, [further information on Subnero's website](/technology/Modem)
+Sea trials and deployment experience have repeatedly proven outstanding performance, including in extremely challenging underwater acoustic conditions. The modem is provided by Subnero, [further information on Subnero's website](/technology/modem)
