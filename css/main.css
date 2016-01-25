@@ -559,6 +559,39 @@ div#footer {
     margin-bottom: 10px;
 }
 
+h2.blog-title {
+  padding-bottom: 3px;
+  font-size: 1.4em;
+}
+
+h2.blog-title a{
+  text-decoration: none;
+}
+
+.blog-content {
+  text-align: left;
+}
+
+li.blog-post-list {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+hr.blog-post-divider {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  margin-bottom: 3em;
+}
+
+.blog-post {
+  text-align: left;
+  width: 83%;
+  margin-left: 9%;
+}
 
 /*************************************************************************/
 
@@ -1023,7 +1056,7 @@ table {
 }
 
 .ListPosts {
-    text-align: justify;
+    text-align: left;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -1031,7 +1064,7 @@ table {
 }
 
 .ListNews {
-    text-align: justify;
+    text-align: left;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -1062,6 +1095,7 @@ table {
 .date {
     color: #888888;
     font-style: oblique;
+    padding-bottom: 5px;
 }
 
 img[alt=center] {

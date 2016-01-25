@@ -1,5 +1,5 @@
 name:        Subnero
-permalink:   /:title
+permalink:   /:categories/:title
 markdown:    redcarpet
 url:         //localhost:4000
 timezone:    Asia/Singapore
