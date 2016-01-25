@@ -26,4 +26,4 @@ Nanyang Technological University,
 Sports and Recreation Centre,
 20 Nanyang Green, Singapore 637715.
 
-Check out the [SAUVC website](http://ewh.ieee.org/r10/singapore/oes/sauvc/index.html) for more details.
+Check out the [SAUVC website](http://ewh.ieee.org/r10/singapore/oes/sauvc/index.html){:target="_blank"} for more details.

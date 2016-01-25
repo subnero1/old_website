@@ -4,7 +4,7 @@ category: blog
 title: UnetStack v1.1.1 Released!
 ---
 
-The [Acoustic Research Laboratory (ARL)](http://arl.nus.edu.sg/) and Subnero are proud to announce the public availability of UnetStack v1.1.1: The flexible network stack for underwater communications!
+The [Acoustic Research Laboratory (ARL)](http://arl.nus.edu.sg/){:target="_blank"} and Subnero are proud to announce the public availability of UnetStack v1.1.1: The flexible network stack for underwater communications!
 
 UnetStack v1.1.1 is now available for download
 

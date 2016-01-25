@@ -1,6 +1,6 @@
 name:        Subnero
 permalink:   /:categories/:title
-markdown:    redcarpet
+markdown:    kramdown
 url:         //subnero.com
 timezone:    Asia/Singapore
 encoding:    UTF-8

@@ -4,7 +4,7 @@ category: blog
 title: The Need for a Better Monitoring Solution
 ---
 
-With harmful algal blooms, eutrophication and emerging contaminants, monitoring of water bodies has become increasingly important. However water bodies cannot be modelled as isolated systems; many external factors such as urbanisation and other human activities affect them.
+With harmful algal blooms, eutrophication and emerging contaminants, monitoring of water bodies has become increasingly important. However water bodies cannot be modeled as isolated systems; many external factors such as urbanisation and other human activities affect them.
 
 Proactive prediction to prevent events that can negatively impact our waters requires knowledge about various parameters. Traditionally water monitoring has been performed with static nodes that measure water quality at fixed points. These measurements are followed up with detailed water quality tests with collected water samples, as necessary. However water bodies are complex and their properties vary with space and time. With traditional methods, we only get very sparse temporal and spatial data. Scaling these methods has hitherto been impractical.
 
