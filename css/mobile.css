@@ -430,7 +430,7 @@ div#footer {
 /*****************************************************************************/
 
 .about {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -524,33 +524,33 @@ div#footer {
 /*****************************************************************************/
 
 .technology {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .technology .Trio {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .technology .swan {
-    width: 100%;
+    width: 90%;
 }
 
 .technology .swan iframe {
-    width: 100%;
+    width: 90%;
 }
 
 .technology .UnetArch img {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .technology img {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -729,12 +729,12 @@ div#footer {
 /*************************************************************************/
 
 .solutions {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.SolutionsNetorking {
+.solutions-networking {
     width: 100%;
     text-align: justify;
     float: left;
