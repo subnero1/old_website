@@ -197,53 +197,6 @@ div#footer {
     color: #888888;
 }
 
-.unslider {
-    position: relative;
-    overflow: auto;
-    height: 450px;
-    width: 100%;
-}
-
-.unslider li {
-    list-style: none;
-    height: 100%;
-}
-
-.unslider ul li {
-    float: left;
-    height: 100%;
-}
-
-.unslider ul {
-    height: 100%;
-}
-
-.unslider .dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-}
-
-.unslider .dots li {
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    margin: 0 4px;
-    text-indent: -999em;
-    background: #888888;
-    border: 2px solid #888888;
-    border-radius: 10px;
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.unslider .dots li.active {
-    background: #000;
-    border: 2px solid #000;
-    opacity: 1;
-}
-
 .tag {
     margin-top: 20px;
 }
@@ -253,150 +206,6 @@ div#footer {
     font-family: 'Open Sans';
     color: #73a4b5;
     font-weight: 400;
-}
-
-.sliding {
-    width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.lean-slider {
-    position: relative;
-    *zoom: 1;
-}
-
-.lean-slider:before,
-.lean-slider:after {
-    content: " ";
-    display: table;
-}
-
-.lean-slider:after {
-    clear: both;
-}
-
-.lean-slider-slide {
-    float: left;
-    width: 100%;
-    margin-right: -100%;
-    display: none;
-}
-
-.lean-slider-slide.current {
-    display: block;
-}
-
-#slider-direction-nav {
-    position: absolute;
-    left: 0;
-    top: 47%;
-    width: 100%;
-    -webkit-transition: opacity 0.2s linear;
-    -moz-transition: opacity 0.2s linear;
-    -ms-transition: opacity 0.2s linear;
-    -o-transition: opacity 0.2s linear;
-    transition: opacity 0.2s linear;
-    opacity: 0.2;
-}
-
-.slider-wrapper {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.lean-slider {
-    overflow: hidden;
-}
-
-.lean-slider-slide {
-    display: block;
-    position: relative;
-    opacity: 0;
-    -webkit-transition: opacity 0.6s linear;
-    -moz-transition: opacity 0.6s linear;
-    -ms-transition: opacity 0.6s linear;
-    -o-transition: opacity 0.6s linear;
-    transition: opacity 0.6s linear;
-}
-
-.lean-slider-slide.current {
-    opacity: 1;
-}
-
-.lean-slider-slide img {
-    display: block;
-    width: 100%;
-}
-
-#slider-direction-nav {
-    position: absolute;
-    left: 0;
-    top: 47%;
-    width: 100%;
-    -webkit-transition: opacity 0.2s linear;
-    -moz-transition: opacity 0.2s linear;
-    -ms-transition: opacity 0.2s linear;
-    -o-transition: opacity 0.2s linear;
-    transition: opacity 0.2s linear;
-    opacity: 0.2;
-}
-
-#slider-control-nav {
-    position: relative;
-    left: 0;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    -webkit-transition: opacity 0.2s linear;
-    -moz-transition: opacity 0.2s linear;
-    -ms-transition: opacity 0.2s linear;
-    -o-transition: opacity 0.2s linear;
-    transition: opacity 0.2s linear;
-    opacity: 1;
-}
-
-.slider-wrapper:hover #slider-control-nav {
-    opacity: 1;
-}
-
-#slider-control-nav a {
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    background: url(/images/bullets.png) no-repeat 0 0;
-    text-indent: -9999px;
-    margin: 0 3px;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-    transition: none;
-}
-
-#slider-control-nav a.active {
-    background-position: 100% 0;
-}
-
-
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-width: 480px) {
-    #slider-direction-nav,
-    #slider-control-nav {
-        opacity: 1;
-    }
-}
-
-
-/* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    #slider-direction-nav,
-    #slider-control-nav {
-        opacity: 1;
-    }
 }
 
 
@@ -1220,4 +1029,14 @@ code {
     margin-bottom: 25px;
     float: right;
     width: 200px;
+}
+
+/*Unslider customization*/
+
+.unslider-nav ol li {
+  border: 2px solid #888;
+}
+
+.unslider-nav ol li.unslider-active {
+  background: #888;
 }

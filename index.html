@@ -3,8 +3,8 @@ layout: default
 title: Subnero
 ---
 
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="/unslider.min.js"></script>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="/js/unslider-min.js"></script>
 
 <div class="unslider">
     <ul>
@@ -15,11 +15,10 @@ title: Subnero
     </ul>
 </div>
 
-<script>
-    $(function() {
-        $('.unslider').unslider({
-            delay: 7000,
-            dots: true,
-        });
-    });
-</script>
+<script>$(function() {
+  $('.unslider').unslider({
+    autoplay: true,
+    delay: 7000,
+    dots: true,
+    arrows: false})
+})</script>
