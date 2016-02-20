@@ -996,3 +996,7 @@ code {
 .unslider-nav ol li.unslider-active {
   background: #888;
 }
+
+.unslider img {
+    width: 100%;
+}
