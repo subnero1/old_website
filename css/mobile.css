@@ -32,7 +32,7 @@ body {
   font-size: 100%; }*/
 
 h1 {
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     color: #e6782f;
     font-size: 170%;
     font-family: 'Open Sans';
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 0em;
+    margin-bottom: 0.8em;
     color: #e6782f;
     font-size: 125%;
     font-family: 'Open Sans';
@@ -48,7 +48,7 @@ h2 {
 }
 
 h3 {
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
     color: #e6782f;
     font-size: 115%;
     font-family: 'Open Sans';
@@ -332,12 +332,6 @@ div#footer {
 /*****************************************************************************/
 
 .technology {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.technology .Trio {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
