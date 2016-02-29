@@ -15,4 +15,4 @@ The autonomous nature of the solution allows for scaling to water bodies large &
 Test bedding to date has shown that operators benefit from the autonomous nature of the platform, the real-time nature of the data collected and the ability to re-direct operations to focus on particular areas of concern. Efficiencies in terms of personnel deployment and operations has led to additional interest in expansion of operations.
 
 
-Subnero offers the SWAN platform for deployments globally. Additional information is available [here]((/technology/swan)).
+Subnero offers the SWAN platform for deployments globally. Additional information is available [here](/technology/swan).
