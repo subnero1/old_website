@@ -990,6 +990,20 @@ blockquote cite:before {
     font-size: small;
 }
 
+.career .jd {
+  margin-bottom: 16px;
+}
+
+h2.area {
+  font-size: 140%;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.career .jd h3 {
+  margin-top: 10px;
+}
+
 
 /***********************************/
 
