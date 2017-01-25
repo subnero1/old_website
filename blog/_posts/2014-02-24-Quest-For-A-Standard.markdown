@@ -11,6 +11,7 @@ This need for a standard is extensively discussed in the article by [Captain Edw
 
 To summarize some the key points of the article,
 The benefits of standardization are well known and widely accepted.
+
 > If a common communication system could be established in the underwater domain, the advantages would be immense
 <cite>Dr. Mandar Chitre</cite>
 

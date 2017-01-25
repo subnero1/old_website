@@ -927,6 +927,12 @@ img[alt=right] {
     padding-bottom: 20px;
 }
 
+img[alt=width] {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 a > img {
     border: 0;
 }
