@@ -6,13 +6,14 @@ layout: default
 ## Subnero Product & Software End User License Agreement
 
 This is an agreement between you and Subnero Pte Ltd or its affiliates (“Subnero”) and governs your Use of Subnero Products and/or Software.
+
 - **“You”** and **“Your”** means the individual or legal entity licensing the Software under this EULA.
 - **"Products"** means a hardware appliance with installed Software.
 - **“Software”** means the Subnero computer programs and any Upgrades made available to you by an Approved Source.
 - **“Documentation”** is the Subnero user or technical manuals, training materials, specifications or other documentation applicable to the Software and made available to you by an Approved Source.
 - **“Approved Source”** means (i) Subnero or (ii) the Subnero authorized reseller, distributor or systems integrator from whom you acquired the Products.
-- **“Upgrades”** means all updates, upgrades, bug fixes, error corrections, enhancements and other modifications to the Software and backup copies thereof.
-
+- **“Upgrades”** means all updates, upgrades, bug fixes, error corrections, enhancements and other modifications to the Software and backup copies thereof.\\
+<br>
 1. **ACCEPTANCE OF TERMS**. By Using the Product, you agree to be bound by the terms of the EULA. If you are entering into this EULA on behalf of an entity, you represent that you have authority to bind that entity. If you do not have such authority or you do not agree to the terms of the EULA, neither you nor the entity may Use the Product or Software. A standard COTS product may be returned to the Approved Source for a refund within thirty (30) days of the date you acquired the Product or Software. This option is not available for customer-specific and/or bespoke solutions.
 2. **LICENSE TO USE**. Subject to payment of the applicable fees and compliance with this EULA, Subnero grants you a limited, non-exclusive and non-transferable license to Use object code versions of the Software along with a relevant Product and the Documentation solely for your internal operations and in accordance with the Documentation. Subnero licenses you the right to Use only the Software you acquire from an Approved Source. Unless contrary to applicable law, you are not licensed to Use the Software on secondhand or refurbished Subnero Product not authorized by Subnero, or on Subnero Product not purchased through an Approved Source.
 3. The Software may contain open source software, subject to separate license terms made available with the Subnero Software or Documentation.

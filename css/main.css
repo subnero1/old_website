@@ -24,7 +24,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font: 13.34px;
     font-size: small;
-    text-align: center;
 }
 
 
@@ -145,6 +144,10 @@ div#header_container {
     width: 965px;
     /*787px;*/
     position: relative;
+}
+
+div#header_container .logo{
+    text-align: center;
 }
 
 div#header_container .logo img {
