@@ -1,0 +1,26 @@
+ ______     __  __     ______     __   __     ______     ______     ______
+/\  ___\   /\ \/\ \   /\  == \   /\ "-.\ \   /\  ___\   /\  == \   /\  __ \
+\ \___  \  \ \ \_\ \  \ \  __<   \ \ \-.  \  \ \  __\   \ \  __<   \ \ \/\ \
+ \/\_____\  \ \_____\  \ \_____\  \ \_\\"\_\  \ \_____\  \ \_\ \_\  \ \_____\
+  \/_____/   \/_____/   \/_____/   \/_/ \/_/   \/_____/   \/_/ /_/   \/_____/
+
+
+# The humans responsible & colophon
+# humanstxt.org
+
+# TEAM
+  Maintainer : Chinmay Pendharkar
+  Contact: chinmay [at] subnero.com
+  Twitter: @ntt
+  From: Singapore
+
+  Developer : Shanmugam Mpl
+  Twitter: @shannietron
+  From: Singapore
+
+
+# SITE
+  Site Url: https://subnero.com
+  Keywords: underwater communication and in-water sensing networks
+  Language: English
+  Technology: github pages, jekyll
